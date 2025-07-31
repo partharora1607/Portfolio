@@ -1,10 +1,7 @@
-import { RiReactjsLine, RiNextjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
+import { RiReactjsLine, RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb, SiRedux, SiPython } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
-import { SiRedux } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
-
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -27,7 +24,7 @@ const Technologies = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-20 text-center text-4xl "
+        className="my-20 text-center text-4xl"
       >
         Technologies
       </motion.h1>
@@ -37,62 +34,46 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
+        {/* React */}
+        <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
+
+        {/* Next.js */}
+        <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <RiNextjsLine className="text-7xl text-white" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(1.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
+
+        {/* MongoDB */}
+        <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
+
+        {/* Node.js */}
+        <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <FaNodeJs className="text-7xl text-red-400" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
+
+        {/* C++ */}
+        <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <TbBrandCpp className="text-7xl text-cyan-400" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(1.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
+
+        {/* Redux */}
+        <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiRedux className="text-7xl text-yellow-500" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(3.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
+
+        {/* Tailwind CSS */}
+        <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
+
+        {/* Python */}
+        <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiPython className="text-7xl text-yellow-300" />
+        </motion.div>
+
       </motion.div>
     </div>
   );

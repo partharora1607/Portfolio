@@ -9,7 +9,7 @@ const Navbar = () => {
         transition={{ duration: 1 }}
         className="flex flex-shrink-0 items-center"
       >
-        <h1 className="text-4xl">PR.</h1>
+        <h1 className="text-4xl">PA.</h1>
       </motion.div>
       <motion.div
         className="mr-28"
