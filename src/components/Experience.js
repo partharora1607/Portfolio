@@ -35,42 +35,36 @@ const Experience = () => {
             transition={{ duration: 1 }}
           >
             <h6 className="mb-2 font-semibold flex items-center gap-2">
-              <img src={Deloitte_IMG} alt="Deloitte" className="h-10" />
-              <span className="text-xl text-purple-100">Deloitte India</span> –
-              AI & Data 
+              <img src={Deloitte_IMG} alt="Deloitte" className="h-10" /> 
+              <span className="text-xl text-purple-100">Deloitte</span>
+              - Analyst (Technology & Transformation)
             </h6>
             <p className="mb-2 text-neutral-400">
-              Working as part of L4 AI & Data team
+              Engineered and tested RESTful APIs, ensuring proper validation and seamless integration across systems.
             </p>
             <p className="mb-2 text-neutral-400">
-              Building Intelligent Automation solutions for enterprise clients
+              Performed comprehensive end-to-end API testing including request–response lifecycle, headers, payloads, and status codes.
             </p>
             <p className="mb-2 text-neutral-400">
-              Using UI-Path to design and deploy frontend automation bots
+              Managed databases for data verification, consistency checks, and issue resolution.
             </p>
             <p className="mb-2 text-neutral-400">
-              Transitioning to Robocorp to implement automation purely using
-              Python
+              Validated business logic, edge cases, and data flow across multiple services and systems.
             </p>
             <p className="mb-2 text-neutral-400">
-              Writing modular and scalable automation scripts
+              Used GitHub for version control, working with branches, pull requests, and code reviews.
             </p>
             <p className="mb-2 text-neutral-400">
-              Performing thorough code reviews to maintain quality and best
-              practices
-            </p>
-            <p className="mb-2 text-neutral-400">
-              Collaborating with cross-functional teams for automation planning
-              and delivery
+              Resolved API failures, data mismatches, and integration issues through systematic debugging and troubleshooting.
             </p>
             <div className="mt-2">
               {[
-                "Python",
-                "Robocorp",
-                "UI-Path",
-                "VS Code",
-                "RPA",
-                "Automation",
+                "RESTful API",
+                "API Testing",
+                "Database Management",
+                "GitHub",
+                "System Integration",
+                "Debugging",
               ].map((tech, idx) => (
                 <span
                   key={idx}
@@ -104,27 +98,23 @@ const Experience = () => {
           >
             <h6 className="mb-2 font-semibold flex items-center gap-2">
               <img src={Deloitte_IMG} alt="Deloitte" className="h-10" />
-              <span className="text-xl text-purple-100">Deloitte India</span> –
+              <span className="text-xl text-purple-100">Deloitte</span> –
               AI & Data 
             </h6>
             <p className="mb-2 text-neutral-400">
-              Worked as part of L4 AI & Data team
+              Worked as part of L4 AI & Data team, delivering intelligent automation solutions to enterprise clients.
             </p>
             <p className="mb-2 text-neutral-400">
-              Built automation solutions using UI-Path
+              Developed automation solutions powered by agentic AI bots using Robocorp and Python.
             </p>
             <p className="mb-2 text-neutral-400">
-              Developed frontend automation bots to reduce manual tasks
+              Built scalable automation workflows to streamline business processes and eliminate manual tasks.
             </p>
             <p className="mb-2 text-neutral-400">
-              Helped achieve significant cost savings through automation
-            </p>
-            <p className="mb-2 text-neutral-400">
-              Participated in regular code reviews to ensure clean and
-              maintainable code
+              Designed and implemented Python-based automation scripts with modular architecture for maintainability.
             </p>
             <div className="mt-2">
-              {["UI-Path", "Automation", "Intelligent Automation"].map(
+              {["Python", "Robocorp", "Agentic AI", "Automation", "Intelligent Automation"].map(
                 (tech, idx) => (
                   <span
                     key={idx}

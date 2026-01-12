@@ -27,11 +27,36 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    title: "FinSight - Expense Management Platform",
+    image_src: "finsight",
+    description:
+      "Built a financial management platform that automatically categorizes expenses and analyzes spending patterns from bank statements. Implemented file upload and parsing for TXT statements, enabling structured extraction of transactional data. Developed expense categorization and personalized financial insights using OpenAI API. Created interactive dashboards to visualize monthly trends, category-wise spending, and budget insights with real-time alerts for unusual expenses.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "OpenAI API", "Tailwind CSS"],
+    github_url: "https://github.com/partharora1607/FinSight",
+  },
+  {
+    title: "GymLog - Fitness Tracker",
+    image_src: "gymlog",
+    description:
+      "Designed a workout tracking system allowing users to create workouts, add exercises, mark completion status, and record personalized notes. Built a dashboard to visualize workout statistics, progress trends, and completion reports across custom date ranges. Implemented automatic calorie calculation based on exercise type, duration, sets, reps, weight, and distance.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    github_url: "https://github.com/partharora1607/GymLog",
+  },
+  {
+    title: "VideoCaptioner - Add Captions to Videos",
+    image_src: "videocaptioner",
+    description:
+      "Built a React-based web application that allows users to add and display captions for a given video URL. Implemented a user-friendly workflow for entering video links, generating captions, and previewing results in real time.",
+    technologies: ["React", "JavaScript", "Tailwind CSS"],
+    github_url: "https://github.com/partharora1607/VideoCaptioner",
+  },
+  {
     title: "NetflixGPT",
     image_src: "netflix",
     description:
       "Netflix GPT is an innovative web application that leverages the power of the TBDM movie dataset and OpenAI's public API to provide personalized movie recommendations. This cutting-edge platform utilizes advanced machine learning algorithms and vast movie databases to curate tailored suggestions based on user preferences. Whether you're in the mood for a thrilling action flick, a heartwarming romance, or an intriguing documentary, Netflix GPT has got you covered. By analyzing patterns in user behavior and movie characteristics, it ensures that each recommendation is uniquely suited to your tastes. Dive into a world of endless cinematic possibilities with Netflix GPT, where finding your next favorite movie is just a click away.",
     technologies: ["ReactJS", "ReduxJS", "TailwindCSS", "Firebase"],
+    github_url: "https://github.com/partharora1607/NetflixGPT",
   },
   {
     title: "WakeN'Bite",

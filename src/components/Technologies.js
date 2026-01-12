@@ -1,5 +1,5 @@
 import { RiReactjsLine, RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiRedux, SiPython } from "react-icons/si";
+import { SiMongodb, SiRedux, SiPython, SiExpress, SiMysql, SiGithub, SiGraphql } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
 import { motion } from "framer-motion";
@@ -72,6 +72,26 @@ const Technologies = () => {
         {/* Python */}
         <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiPython className="text-7xl text-yellow-300" />
+        </motion.div>
+
+        {/* Express.js */}
+        <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiExpress className="text-7xl text-white" />
+        </motion.div>
+
+        {/* SQL */}
+        <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiMysql className="text-7xl text-blue-500" />
+        </motion.div>
+
+        {/* GitHub */}
+        <motion.div variants={iconVariants(1.8)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiGithub className="text-7xl text-white" />
+        </motion.div>
+
+        {/* GraphQL */}
+        <motion.div variants={iconVariants(2.2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiGraphql className="text-7xl text-pink-500" />
         </motion.div>
 
       </motion.div>
